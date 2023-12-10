@@ -40,7 +40,20 @@ const NavBar = () => {
         className="p-1 font-medium font-sans text-lg"
       >
         <NavLink
-          to="/"
+          to="/skills"
+          className={({ isActive }) => (isActive ? "text-yellow-600" : "")}
+        >
+          Skills
+        </NavLink>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="white"
+        className="p-1 font-medium font-sans text-lg"
+      >
+        <NavLink
+          to="/projects"
           className={({ isActive }) => (isActive ? "text-yellow-600" : "")}
         >
           Projects
@@ -53,7 +66,7 @@ const NavBar = () => {
         className="p-1 font-medium font-sans text-lg"
       >
         <NavLink
-          to="/"
+          to="/resume"
           className={({ isActive }) => (isActive ? "text-yellow-600" : "")}
         >
           Resume
@@ -66,7 +79,7 @@ const NavBar = () => {
         className="p-1 font-medium font-sans text-lg"
       >
         <NavLink
-          to="/"
+          to="/contract"
           className={({ isActive }) => (isActive ? "text-yellow-600" : "")}
         >
           Contract Me
@@ -79,7 +92,7 @@ const NavBar = () => {
         className="p-1 font-medium font-sans text-lg"
       >
         <NavLink
-          to="/"
+          to="/about"
           className={({ isActive }) => (isActive ? "text-yellow-600" : "")}
         >
           About Me
