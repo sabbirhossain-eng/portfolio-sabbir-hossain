@@ -28,7 +28,7 @@ const NavBar = () => {
       >
         <NavLink
           to="/"
-          className={({ isActive }) => (isActive ? "text-yellow-600" : "")}
+          className={({ isActive }) => (isActive ? "text-[#c9f31d]" : "")}
         >
           Home
         </NavLink>
@@ -41,7 +41,7 @@ const NavBar = () => {
       >
         <NavLink
           to="/skills"
-          className={({ isActive }) => (isActive ? "text-yellow-600" : "")}
+          className={({ isActive }) => (isActive ? "text-[#c9f31d]" : "")}
         >
           Skills
         </NavLink>
@@ -54,7 +54,7 @@ const NavBar = () => {
       >
         <NavLink
           to="/projects"
-          className={({ isActive }) => (isActive ? "text-yellow-600" : "")}
+          className={({ isActive }) => (isActive ? "text-[#c9f31d]" : "")}
         >
           Projects
         </NavLink>
@@ -67,7 +67,7 @@ const NavBar = () => {
       >
         <NavLink
           to="/resume"
-          className={({ isActive }) => (isActive ? "text-yellow-600" : "")}
+          className={({ isActive }) => (isActive ? "text-[#c9f31d]" : "")}
         >
           Resume
         </NavLink>
@@ -80,7 +80,7 @@ const NavBar = () => {
       >
         <NavLink
           to="/contract"
-          className={({ isActive }) => (isActive ? "text-yellow-600" : "")}
+          className={({ isActive }) => (isActive ? "text-[#c9f31d]" : "")}
         >
           Contract Me
         </NavLink>
@@ -93,7 +93,7 @@ const NavBar = () => {
       >
         <NavLink
           to="/about"
-          className={({ isActive }) => (isActive ? "text-yellow-600" : "")}
+          className={({ isActive }) => (isActive ? "text-[#c9f31d]" : "")}
         >
           About Me
         </NavLink>

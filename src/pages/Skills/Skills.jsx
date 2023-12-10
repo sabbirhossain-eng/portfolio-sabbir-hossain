@@ -1,5 +1,6 @@
 import SkillsCard from "./SkillsCard";
 import img from "./../../assets/Skills/Skills.png";
+import SoftSkills from "./SoftSkills";
 const Skills = () => {
   return (
     <div className="font-sans">
@@ -14,6 +15,7 @@ const Skills = () => {
           <SkillsCard />
         </div>
       </div>
+      <SoftSkills/>
     </div>
   );
 };

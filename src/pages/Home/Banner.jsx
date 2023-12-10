@@ -18,7 +18,7 @@ const Banner = () => {
               Welcome to My Portfolio
             </h1>
             <TypeAnimation
-            className="text-yellow-600 text-xl font-sans mt-10"
+            className="text-[#c9f31d] text-xl font-sans mt-10"
               sequence={[
                 "I am Sabbir Hossain",
                 1000,
