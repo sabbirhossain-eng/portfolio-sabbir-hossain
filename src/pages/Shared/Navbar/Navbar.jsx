@@ -8,6 +8,8 @@ import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "./../../../assets/Logo.png";
 import { HashLink } from "react-router-hash-link";
+import { saveAs } from 'file-saver';
+import resume from "../../../assets/Resume/sabbirhossain.pdf";
 
 const NavBar = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -22,6 +24,11 @@ const NavBar = () => {
     
     window.location.reset(true);
   };
+
+  const downloadResume = () => {
+    saveAs(resume, 'sabbirHossain.pdf');
+  };
+
 
 
 const navList = (
@@ -78,12 +85,9 @@ const navList = (
         color="white"
         className="p-1 font-medium font-sans text-lg"
       >
-        <NavLink
-          to="/resume"
-          
-        >
-          Resume
-        </NavLink>
+        <a href={resume} target="_blank" rel="noopener noreferrer" onClick={downloadResume}>
+        Resume
+      </a>
       </Typography>
       <Typography
         as="li"
