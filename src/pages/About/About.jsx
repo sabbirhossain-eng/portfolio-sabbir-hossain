@@ -3,8 +3,10 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "./tabStyle.css";
 import MySkills from "../../Components/MySkills";
 import MyAbout from "../../Components/MyAbout";
+import Experience from "../../Components/Experience";
 
 const About = () => {
+
   return (
     <div className="mt-10">
         <h2 className="font-sans text-2xl font-semibold w-1/2 mx-auto text-center mb-10">
@@ -22,10 +24,9 @@ const About = () => {
           <MyAbout/>
         </TabPanel>
         <TabPanel>
-          <h2>Any content 2</h2>
+          <Experience/>
         </TabPanel>
         <TabPanel>
-          
           <MySkills/>
         </TabPanel>
       </Tabs>

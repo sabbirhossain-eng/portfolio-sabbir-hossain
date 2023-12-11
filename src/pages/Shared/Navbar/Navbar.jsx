@@ -5,7 +5,7 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import logo from "./../../../assets/Logo.png";
 import { HashLink } from "react-router-hash-link";
 
@@ -18,6 +18,12 @@ const NavBar = () => {
       () => window.innerWidth >= 960 && setOpenNav(false)
     );
   }, []);
+  const location = useLocation();
+  const [isAboutActive, setIsAboutActive] = useState(false);
+
+  useEffect(() => {
+    setIsAboutActive(location.hash === '#about');
+  }, [location]);
 
   const navList = (
     <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
@@ -42,7 +48,7 @@ const NavBar = () => {
       >
         <NavLink
           
-          className={({ isActive }) => (isActive ? "text-[#c9f31d]" : "")}
+          className={` ${isAboutActive ? 'text-[#c9f31d]' : ''}`}
         >
           <HashLink smooth to="/#about">
           About
