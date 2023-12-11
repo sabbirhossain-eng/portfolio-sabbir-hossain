@@ -10,7 +10,7 @@ const SoftSkillsCard = () => {
   return (
     <div className="grid md:grid-cols-2 gap-10 mt-4 mx-auto">
       {/* skills 1 */}
-      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]">
+      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
         <div className="card-body items-center">
           <div className="flex justify-between items-center">
             <img src={hardWorking} alt="Hard Working" className="w-1/3" />
@@ -21,7 +21,7 @@ const SoftSkillsCard = () => {
         </div>
       </div>
       {/* skills 2 */}
-      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]">
+      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
         <div className="card-body items-center">
           <div className="flex justify-between items-center">
             <img src={teamWorking} alt="Team Working" className="w-1/3" />
@@ -32,7 +32,7 @@ const SoftSkillsCard = () => {
         </div>
       </div>
       {/* skills 3 */}
-      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]">
+      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
         <div className="card-body items-center">
           <div className="flex justify-between items-center">
             <img src={timeManagement} alt="Time Management" className="w-1/3" />
@@ -43,7 +43,7 @@ const SoftSkillsCard = () => {
         </div>
       </div>
       {/* skills 4 */}
-      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]">
+      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
         <div className="card-body items-center">
           <div className="flex justify-between items-center">
             <img src={responsibility} alt="Responsibility" className="w-1/3" />
@@ -54,7 +54,7 @@ const SoftSkillsCard = () => {
         </div>
       </div>
       {/* skills 5 */}
-      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]">
+      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
         <div className="card-body items-center">
           <div className="flex justify-between items-center">
             <img src={leadership} alt="Leadership" className="w-1/3" />
@@ -65,7 +65,7 @@ const SoftSkillsCard = () => {
         </div>
       </div>
       {/* skills 6 */}
-      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]">
+      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
         <div className="card-body items-center">
           <div className="flex justify-between items-center">
             <img src={management} alt="management" className="w-1/3" />
@@ -76,7 +76,7 @@ const SoftSkillsCard = () => {
         </div>
       </div>
       {/* skills 7 */}
-      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]">
+      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
         <div className="card-body items-center">
           <div className="flex justify-between items-center">
             <img src={motivation} alt="Motivation" className="w-1/3" />

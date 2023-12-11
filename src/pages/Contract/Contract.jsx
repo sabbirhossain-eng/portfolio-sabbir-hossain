@@ -34,10 +34,10 @@ const Contract = () => {
   return (
     <div>
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-[#c9f31d] font-sans">
+        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-[#c9f31d] font-sans" data-aos="fade-up" data-aos-duration="3000">
           Contact Us
         </h2>
-        <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+        <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl" data-aos="fade-up" data-aos-duration="3000">
           Want to give me feedback that will change my future?
           <br /> 
           Want to work with me in keeping with new technology?
@@ -45,7 +45,7 @@ const Contract = () => {
           Then get in touch or send your feedback.
         </p>
         <form ref={form} onSubmit={sendEmail} className="space-y-4">
-          <div>
+          <div data-aos="fade-up" data-aos-duration="3000">
             <label className="block mb-2 text-sm font-medium text-[#c9f31d] dark:text-[#c9f31d]">
               Your Name
             </label>
@@ -57,7 +57,7 @@ const Contract = () => {
               required
             />
           </div>
-          <div>
+          <div data-aos="fade-up" data-aos-duration="3000">
             <label className="block mb-2 text-sm font-medium text-[#c9f31d] dark:text-[#c9f31d]">
               Your email
             </label>
@@ -69,7 +69,7 @@ const Contract = () => {
               required
             />
           </div>
-          <div>
+          <div data-aos="fade-up" data-aos-duration="3000">
             <label className="block mb-2 text-sm font-medium text-[#c9f31d]">
               Subject
             </label>
@@ -81,7 +81,7 @@ const Contract = () => {
               required
             />
           </div>
-          <div className="sm:col-span-2">
+          <div className="sm:col-span-2" data-aos="fade-up" data-aos-duration="3000">
             <label className="block mb-2 text-sm font-medium text-[#c9f31d] dark:text-gray-400">
               Your message
             </label>
@@ -92,11 +92,13 @@ const Contract = () => {
               placeholder="Leave a comment..."
             ></textarea>
           </div>
+          <div data-aos="fade-up" data-aos-duration="3000">
           <input
             type="submit"
             className="py-3 px-5 text-sm font-medium text-center text-black rounded-lg bg-[#c9f31d]"
             value="Send message"
           />
+          </div>
         </form>
       </div>
     </div>

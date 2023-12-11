@@ -9,11 +9,11 @@ const About = () => {
 
   return (
     <div className="mt-10">
-        <h2 className="font-sans text-2xl font-semibold w-1/2 mx-auto text-center mb-10">
+        <h2 className="font-sans text-2xl font-semibold w-1/2 mx-auto text-center mb-10" data-aos="fade-up" data-aos-duration="3000">
         I am Sabbir Hossain, I am a Web Developer, Currently residing in the Dhaka Bangladesh. Ready to take on any challenge.
         </h2>
       <Tabs>
-        <TabList className="text-center font-sans mx-auto">
+        <TabList className="text-center font-sans mx-auto" data-aos="fade-up" data-aos-duration="3000">
           <Tab className="btn bg-gray-800 border-none text-white text-lg uppercase active:bg-[#c9f31d] "> 
           About </Tab>
           <Tab className="btn bg-gray-800 border-none text-white text-lg uppercase active:bg-[#c9f31d] ml-4 md:ml-10">Experience</Tab>
