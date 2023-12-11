@@ -5,7 +5,7 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import { useEffect, useState } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "./../../../assets/Logo.png";
 import { HashLink } from "react-router-hash-link";
 
@@ -18,14 +18,13 @@ const NavBar = () => {
       () => window.innerWidth >= 960 && setOpenNav(false)
     );
   }, []);
-  const location = useLocation();
-  const [isAboutActive, setIsAboutActive] = useState(false);
+  const handleClick = () => {
+    
+    window.location.reset(true);
+  };
 
-  useEffect(() => {
-    setIsAboutActive(location.hash === '#about');
-  }, [location]);
 
-  const navList = (
+const navList = (
     <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
@@ -35,7 +34,7 @@ const NavBar = () => {
       >
         <NavLink
           to="/"
-          className={({ isActive }) => (isActive ? "text-[#c9f31d]" : "")}
+          onClick={handleClick}
         >
           Home
         </NavLink>
@@ -46,14 +45,9 @@ const NavBar = () => {
         color="white"
         className="p-1 font-medium font-sans text-lg"
       >
-        <NavLink
-          
-          className={` ${isAboutActive ? 'text-[#c9f31d]' : ''}`}
-        >
-          <HashLink smooth to="/#about">
+        <HashLink smooth to="/#about">
           About
-          </HashLink>
-        </NavLink>
+        </HashLink>
       </Typography>
       <Typography
         as="li"
@@ -63,7 +57,7 @@ const NavBar = () => {
       >
         <NavLink
           to="/skills"
-          className={({ isActive }) => (isActive ? "text-[#c9f31d]" : "")}
+          
         >
           Skills
         </NavLink>
@@ -74,12 +68,9 @@ const NavBar = () => {
         color="white"
         className="p-1 font-medium font-sans text-lg"
       >
-        <NavLink
-          to="/projects"
-          className={({ isActive }) => (isActive ? "text-[#c9f31d]" : "")}
-        >
+        <HashLink smooth to="/projects">
           Projects
-        </NavLink>
+        </HashLink>
       </Typography>
       <Typography
         as="li"
@@ -89,7 +80,7 @@ const NavBar = () => {
       >
         <NavLink
           to="/resume"
-          className={({ isActive }) => (isActive ? "text-[#c9f31d]" : "")}
+          
         >
           Resume
         </NavLink>
@@ -102,7 +93,7 @@ const NavBar = () => {
       >
         <NavLink
           to="/contract"
-          className={({ isActive }) => (isActive ? "text-[#c9f31d]" : "")}
+          
         >
           Contract Me
         </NavLink>
