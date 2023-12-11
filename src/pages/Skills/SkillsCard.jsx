@@ -11,7 +11,7 @@ const SkillsCard = () => {
   return (
     <div className="grid md:grid-cols-2 gap-10 mt-4 mx-auto">
       {/* skills 1 */}
-      <div className="card w-96 bg-neutral text-neutral-content">
+      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]">
         <div className="card-body items-center">
           <div className="flex justify-between items-center">
             <img src={javaScript} alt="JavaScript" className="w-1/3" />
@@ -22,7 +22,7 @@ const SkillsCard = () => {
         </div>
       </div>
       {/* skill 2 */}
-      <div className="card w-96 bg-neutral text-neutral-content">
+      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]">
         <div className="card-body items-center">
           <div className="flex justify-between items-center">
             <img src={react} alt="React.js" className="w-1/3" />
@@ -33,7 +33,7 @@ const SkillsCard = () => {
         </div>
       </div>
       {/* skill 3 */}
-      <div className="card w-96 bg-neutral text-neutral-content">
+      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]">
         <div className="card-body items-center">
           <div className="flex justify-between items-center">
             <img src={tailwind} alt="Tailwind CSS" className="w-1/3" />
@@ -44,7 +44,7 @@ const SkillsCard = () => {
         </div>
       </div>
       {/* skill 4 */}
-      <div className="card w-96 bg-neutral text-neutral-content">
+      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]">
         <div className="card-body items-center">
           <div className="flex justify-between items-center">
             <img
@@ -59,7 +59,7 @@ const SkillsCard = () => {
         </div>
       </div>
       {/* skill 5 */}
-      <div className="card w-96 bg-neutral text-neutral-content">
+      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]">
         <div className="card-body items-center">
           <div className="flex justify-between items-center">
             <img src={html} alt="HTML-5" className="w-1/3" />
@@ -70,7 +70,7 @@ const SkillsCard = () => {
         </div>
       </div>
       {/* skill 6 */}
-      <div className="card w-96 bg-neutral text-neutral-content">
+      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]">
         <div className="card-body items-center">
           <div className="flex justify-between items-center">
             <img src={css} alt="CSS" className="w-1/3" />
@@ -81,7 +81,7 @@ const SkillsCard = () => {
         </div>
       </div>
       {/* skill 7 */}
-      <div className="card w-96 bg-neutral text-neutral-content">
+      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]">
         <div className="card-body items-center">
           <div className="flex justify-between items-center">
             <img src={node_js} alt="Node.js" className="w-1/3" />
@@ -92,7 +92,7 @@ const SkillsCard = () => {
         </div>
       </div>
       {/* skill 8 */}
-      <div className="card w-96 bg-neutral text-neutral-content">
+      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]">
         <div className="card-body items-center">
           <div className="flex justify-between items-center">
             <img src={express} alt="Express.js" className="w-1/3" />
@@ -103,7 +103,7 @@ const SkillsCard = () => {
         </div>
       </div>
       {/* skill 9 */}
-      <div className="card w-96 bg-neutral text-neutral-content">
+      <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]">
         <div className="card-body items-center">
           <div className="flex justify-between items-center">
             <img src={mongoDB} alt="MongoDB" className="w-1/3" />

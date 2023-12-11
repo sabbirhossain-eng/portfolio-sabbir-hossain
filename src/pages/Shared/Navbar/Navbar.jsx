@@ -7,6 +7,7 @@ import {
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "./../../../assets/Logo.png";
+import { HashLink } from "react-router-hash-link";
 
 const NavBar = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -31,6 +32,21 @@ const NavBar = () => {
           className={({ isActive }) => (isActive ? "text-[#c9f31d]" : "")}
         >
           Home
+        </NavLink>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="white"
+        className="p-1 font-medium font-sans text-lg"
+      >
+        <NavLink
+          
+          className={({ isActive }) => (isActive ? "text-[#c9f31d]" : "")}
+        >
+          <HashLink smooth to="/#about">
+          About
+          </HashLink>
         </NavLink>
       </Typography>
       <Typography
@@ -83,19 +99,6 @@ const NavBar = () => {
           className={({ isActive }) => (isActive ? "text-[#c9f31d]" : "")}
         >
           Contract Me
-        </NavLink>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="white"
-        className="p-1 font-medium font-sans text-lg"
-      >
-        <NavLink
-          to="/about"
-          className={({ isActive }) => (isActive ? "text-[#c9f31d]" : "")}
-        >
-          About Me
         </NavLink>
       </Typography>
     </ul>
