@@ -19,16 +19,16 @@ const MyAbout = () => {
           </p>
           <div className="grid lg:grid-cols-2 gap-10 mt-4 mx-auto">
             {/* card 1 */}
-            <div className="card w-[80%] bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
+            <div className="card w-[80%] lg:w-full bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
               <div className="card-body">
                 <h2 className="card-title text-blue-gray-200">Email</h2>
-                <p className="text-white md:text-xl md:font-semibold">
+                <p className="text-white lg:text-xl md:font-semibold">
                   sabbirh8181@gmail.com
                 </p>
               </div>
             </div>
             {/* card 2 */}
-            <div className="card w-[80%] bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
+            <div className="card w-[80%] lg:w-full bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
               <div className="card-body">
                 <h2 className="card-title text-blue-gray-200">Phone</h2>
                 <p className="text-white text-xl font-semibold">
@@ -37,7 +37,7 @@ const MyAbout = () => {
               </div>
             </div>
             {/* card 3 */}
-            <div className="card w-[80%] bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
+            <div className="card w-[80%] lg:w-full bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
               <div className="card-body">
                 <h2 className="card-title text-blue-gray-200">Follow</h2>
                 <div className="flex justify-evenly">
