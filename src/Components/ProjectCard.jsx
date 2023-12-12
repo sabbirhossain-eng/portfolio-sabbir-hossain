@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 
 const ProjectCard = ({img, title1, subTitle1, title2, p1, p2, p3, p4, p5, p6, liveLink, gitClient, gitServer}) => {
     return (
-        <div>
-            <div className="card w-[80%] border border-[#c9f31d] shadow-xl image-full mx-auto">
+        <div className="flex justify-center mx-auto">
+            <div className="card md:w-[80%] border border-[#c9f31d] shadow-xl image-full mx-auto">
           <figure data-aos="fade-up" data-aos-duration="3000">
-            <img src={img} alt="Project" />
+            <img src={img} alt="Project"
+            />
           </figure>
           <div className="card-body flex items-center mt-[20%]" data-aos="fade-up" data-aos-duration="3000">
             {/* card */}
