@@ -40,7 +40,7 @@ const Footer = () => {
         </li>
         <li>
           <Typography>
-            <Link>
+            <Link to="https://sabbirhossain-8630c.web.app/" target="_blank">
               <p className="text-white text-3xl font-semibold">
                 <TfiWorld />
               </p>

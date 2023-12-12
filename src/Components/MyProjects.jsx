@@ -21,7 +21,7 @@ const MyProjects = () => {
         </div>
       <div className="grid md:grid-cols-2 lg:flex lg:justify-center lg:flex-row gap-4 mx-auto">
         {/* card 1 */}
-        <Card className="w-96 bg-black border border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
+        <Card className="w-full bg-black border border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
           <CardHeader floated={false} className="h-80">
             <img src={img1} alt="profile-picture" />
           </CardHeader>
@@ -45,7 +45,7 @@ const MyProjects = () => {
           </CardFooter>
         </Card>
         {/* card 2 */}
-        <Card className="w-96 bg-black border border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
+        <Card className="w-full bg-black border border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
           <CardHeader floated={false} className="h-80">
             <img src={img2} alt="profile-picture" />
           </CardHeader>
@@ -69,7 +69,7 @@ const MyProjects = () => {
           </CardFooter>
         </Card>
         {/* card 3 */}
-        <Card className="w-96 bg-black border border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
+        <Card className="w-full bg-black border border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
           <CardHeader floated={false} className="h-80">
             <img src={img3} alt="profile-picture" />
           </CardHeader>

@@ -19,7 +19,7 @@ const MyAbout = () => {
           </p>
           <div className="grid lg:grid-cols-2 gap-10 mt-4 mx-auto">
             {/* card 1 */}
-            <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
+            <div className="card w-full bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
               <div className="card-body">
                 <h2 className="card-title text-blue-gray-200">Email</h2>
                 <p className="text-white text-xl font-semibold">
@@ -28,7 +28,7 @@ const MyAbout = () => {
               </div>
             </div>
             {/* card 2 */}
-            <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
+            <div className="card w-full bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
               <div className="card-body">
                 <h2 className="card-title text-blue-gray-200">Phone</h2>
                 <p className="text-white text-xl font-semibold">
@@ -37,7 +37,7 @@ const MyAbout = () => {
               </div>
             </div>
             {/* card 3 */}
-            <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
+            <div className="card w-full bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
               <div className="card-body">
                 <h2 className="card-title text-blue-gray-200">Follow</h2>
                 <div className="flex justify-evenly">
@@ -51,7 +51,7 @@ const MyAbout = () => {
                       <VscGithubInverted />
                     </p>
                   </Link>
-                  <Link>
+                  <Link to="https://sabbirhossain-8630c.web.app/" target="_blank">
                   <p className="text-white text-3xl font-semibold">
                     <TfiWorld />
                   </p>
