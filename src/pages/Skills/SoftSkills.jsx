@@ -5,7 +5,7 @@ const SoftSkills = () => {
   return (
     <div className="mt-16">
       <h2 className="text-4xl font-semibold text-center" data-aos="fade-up" data-aos-duration="3000">My Soft Skills</h2>
-      <div className="flex  flex-col md:flex-row mt-10">
+      <div className="flex  flex-col lg:flex-row mt-10">
         <img src={img} alt="" className="w-1/2 mx-auto" data-aos="fade-up" data-aos-duration="3000"/>
         <div className="md:ml-10">
           <p className="text-blue-gray-200 text-lg" data-aos="fade-up" data-aos-duration="3000">

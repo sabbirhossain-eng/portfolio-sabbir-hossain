@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-[#c9f31d] py-6 text-center md:justify-between mt-10 mx-auto">
-      <Typography className="text-white text-xl font-medium flex items-center ml-10">
+      <Typography className="text-white text-xl font-medium flex items-center md:ml-10">
             <TfiEmail className="mr-2"/> sabbirh8181@gmail.com
           </Typography>
       <ul className="flex flex-wrap items-center gap-y-2 gap-x-8 md:mr-10 mx-auto">

@@ -17,7 +17,7 @@ const MyAbout = () => {
             inquiries, project discussions, or just to say hello. Lets build
             something amazing together!
           </p>
-          <div className="grid md:grid-cols-2 gap-10 mt-4 mx-auto">
+          <div className="grid lg:grid-cols-2 gap-10 mt-4 mx-auto">
             {/* card 1 */}
             <div className="card w-96 bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
               <div className="card-body">

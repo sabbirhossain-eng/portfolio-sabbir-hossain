@@ -56,20 +56,7 @@ const navList = (
         color="white"
         className="p-1 font-medium font-sans text-lg"
       >
-        <NavLink
-          to="/skills"
-          
-        >
-          Skills
-        </NavLink>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="white"
-        className="p-1 font-medium font-sans text-lg"
-      >
-        <HashLink smooth to="/projects">
+        <HashLink smooth to="/#projects">
           Projects
         </HashLink>
       </Typography>
@@ -79,12 +66,9 @@ const navList = (
         color="white"
         className="p-1 font-medium font-sans text-lg"
       >
-        <NavLink
-          to="/contract"
-          
-        >
-          Contract Me
-        </NavLink>
+        <HashLink smooth to="/#contract">
+        Contract Me
+        </HashLink>
       </Typography>
     </ul>
   );

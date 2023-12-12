@@ -19,7 +19,7 @@ const MyProjects = () => {
             Crafting digital experiences that matter. Whether connecting hearts through our Pet Adoption Platform, empowering knowledge with the Library Management System, or elevating style at our Brand Shop, we bring innovation and user-centric design to redefine how people interact with technology.
           </p>
         </div>
-      <div className="flex flex-col justify-center md:flex-row gap-4 mx-auto">
+      <div className="grid md:grid-cols-2 lg:flex lg:justify-center lg:flex-row gap-4 mx-auto">
         {/* card 1 */}
         <Card className="w-96 bg-black border border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
           <CardHeader floated={false} className="h-80">

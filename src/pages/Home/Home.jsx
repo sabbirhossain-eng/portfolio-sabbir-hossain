@@ -1,5 +1,6 @@
 import MyProjects from "../../Components/MyProjects";
 import About from "../About/About";
+import Contract from "../Contract/Contract";
 import Banner from "./Banner";
 
 const Home = () => {
@@ -10,8 +11,11 @@ const Home = () => {
             <div id="about">
             <About/>
             </div>
-            <div>
+            <div id="projects">
                 <MyProjects/>
+            </div>
+            <div id="contract">
+                <Contract/>
             </div>
         </div>
     );

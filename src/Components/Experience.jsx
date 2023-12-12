@@ -3,7 +3,7 @@ import img from "./../assets/Experience/experience.png";
 const Experience = () => {
   return (
     <div className="font-sans">
-      <div className="flex  flex-col md:flex-row mt-10">
+      <div className="flex  flex-col lg:flex-row mt-10">
         <img src={img} alt="" className="w-1/2 mx-auto" data-aos="fade-up" data-aos-duration="3000"/>
         <div className="md:ml-10">
           <h2 className="text-4xl font-semibold text-left" data-aos="fade-up" data-aos-duration="3000">My Experience</h2>
