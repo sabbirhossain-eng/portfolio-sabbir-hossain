@@ -95,7 +95,7 @@ const Contract = () => {
           <div data-aos="fade-up" data-aos-duration="3000">
           <input
             type="submit"
-            className="py-3 px-5 text-sm font-medium text-center text-black rounded-lg bg-[#c9f31d]"
+            className="py-3 px-5 text-sm font-medium text-center text-black btn rounded-lg bg-[#c9f31d]"
             value="Send message"
           />
           </div>
