@@ -13,9 +13,9 @@ import { HashLink } from "react-router-hash-link";
 const MyProjects = () => {
   return (
     <div>
-        <div className="font-sans w-1/2 mx-auto text-center my-10">
+        <div className="font-sans w-full lg:w-1/2 mx-auto text-center my-10">
             <h2 className=" text-4xl text-[#c9f31d] font-semibold" data-aos="fade-up" data-aos-duration="3000">My Projects</h2>
-            <p className="text-blue-gray-200 text-lg" data-aos="fade-up" data-aos-duration="3000">
+            <p className="text-blue-gray-200 text-lg mt-2 text-justify" data-aos="fade-up" data-aos-duration="3000">
             Crafting digital experiences that matter. Whether connecting hearts through our Pet Adoption Platform, empowering knowledge with the Library Management System, or elevating style at our Brand Shop, we bring innovation and user-centric design to redefine how people interact with technology.
           </p>
         </div>

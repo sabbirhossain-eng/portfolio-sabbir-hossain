@@ -7,7 +7,7 @@ const Experience = () => {
         <img src={img} alt="" className="w-1/2 mx-auto" data-aos="fade-up" data-aos-duration="3000"/>
         <div className="md:ml-10">
           <h2 className="text-4xl font-semibold text-left" data-aos="fade-up" data-aos-duration="3000">My Experience</h2>
-          <p className="text-blue-gray-200 text-lg" data-aos="fade-up" data-aos-duration="3000">
+          <p className="text-blue-gray-200 text-lg mt-2 text-justify" data-aos="fade-up" data-aos-duration="3000">
             My journey began with a fervent curiosity for the intricacies of
             coding and a commitment to staying ahead of the technological curve.
             Over the years, I have not only mastered the fundamental languages

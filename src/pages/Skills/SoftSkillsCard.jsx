@@ -12,7 +12,7 @@ const SoftSkillsCard = () => {
       {/* skills 1 */}
       <div className="card w-full bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
         <div className="card-body items-center">
-          <div className="flex flex-col md:flex-row justify-around items-center">
+          <div className="flex flex-col md:flex-row md:justify-around items-center">
             <img src={hardWorking} alt="Hard Working" className="w-1/3" />
             <h3 className="mt-2 md:mt-0  w-1/2 font-semibold font-sans text-2xl text-center">
               Hard Working
@@ -23,7 +23,7 @@ const SoftSkillsCard = () => {
       {/* skills 2 */}
       <div className="card w-full bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
         <div className="card-body items-center">
-          <div className="flex flex-col md:flex-row justify-around items-center">
+          <div className="flex flex-col md:flex-row md:justify-around items-center">
             <img src={teamWorking} alt="Team Working" className="w-1/3" />
             <h3 className="mt-2 md:mt-0  w-1/2 font-semibold font-sans text-2xl text-center">
               Team Working
@@ -34,7 +34,7 @@ const SoftSkillsCard = () => {
       {/* skills 3 */}
       <div className="card w-full bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
         <div className="card-body items-center">
-          <div className="flex flex-col md:flex-row justify-around items-center">
+          <div className="flex flex-col md:flex-row md:justify-around items-center">
             <img src={timeManagement} alt="Time Management" className="w-1/3" />
             <h3 className="mt-2 md:mt-0  w-1/2 font-semibold font-sans text-2xl text-center">
               Time Management
@@ -45,7 +45,7 @@ const SoftSkillsCard = () => {
       {/* skills 4 */}
       <div className="card w-full bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
         <div className="card-body items-center">
-          <div className="flex flex-col md:flex-row justify-around items-center">
+          <div className="flex flex-col md:flex-row md:justify-around items-center">
             <img src={responsibility} alt="Responsibility" className="w-1/3" />
             <h3 className="mt-2 md:mt-0  w-1/2 font-semibold font-sans text-2xl text-center">
               Responsibility
@@ -56,7 +56,7 @@ const SoftSkillsCard = () => {
       {/* skills 5 */}
       <div className="card w-full bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
         <div className="card-body items-center">
-          <div className="flex flex-col md:flex-row justify-around items-center">
+          <div className="flex flex-col md:flex-row md:justify-around items-center">
             <img src={leadership} alt="Leadership" className="w-1/3" />
             <h3 className="mt-2 md:mt-0  w-1/2 font-semibold font-sans text-2xl text-center">
               Leadership
@@ -67,7 +67,7 @@ const SoftSkillsCard = () => {
       {/* skills 6 */}
       <div className="card w-full bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
         <div className="card-body items-center">
-          <div className="flex flex-col md:flex-row justify-around items-center">
+          <div className="flex flex-col md:flex-row md:justify-around items-center">
             <img src={management} alt="management" className="w-1/3" />
             <h3 className="mt-2 md:mt-0  w-1/2 font-semibold font-sans text-2xl text-center">
               management
@@ -78,7 +78,7 @@ const SoftSkillsCard = () => {
       {/* skills 7 */}
       <div className="card w-full bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]" data-aos="fade-up" data-aos-duration="3000">
         <div className="card-body items-center">
-          <div className="flex flex-col md:flex-row justify-around items-center">
+          <div className="flex flex-col md:flex-row md:justify-around items-center">
             <img src={motivation} alt="Motivation" className="w-1/3" />
             <h3 className="mt-2 md:mt-0  w-1/2 font-semibold font-sans text-2xl text-center">
               Motivation

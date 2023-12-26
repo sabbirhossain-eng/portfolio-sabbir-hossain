@@ -7,7 +7,7 @@ const Education = () => {
           <img src={img} alt="" className="w-1/2 mx-auto" data-aos="fade-up" data-aos-duration="3000"/>
           <div className="md:ml-10">
             <h2 className="text-4xl font-semibold text-left" data-aos="fade-up" data-aos-duration="3000">My Education</h2>
-            <p className="text-blue-gray-200 text-lg" data-aos="fade-up" data-aos-duration="3000">
+            <p className="text-blue-gray-200 text-lg mt-2 text-justify" data-aos="fade-up" data-aos-duration="3000">
             Education is the foundation upon which my journey in knowledge and expertise is built. My academic pursuits reflect a commitment to excellence, curiosity, and a passion for lifelong learning. From the fundamental principles acquired during my early education to the specialized knowledge gained in higher studies, each academic milestone has contributed to my intellectual growth and shaped my professional identity. Explore my educational journey to understand the depth of my academic background and the diverse skills I have cultivated along the way.
             </p>
             <div className="overflow-x-auto mt-10">

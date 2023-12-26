@@ -26,7 +26,7 @@ const Banner = () => {
         <div className="flex flex-col md:flex-row items-center mx-auto ml-10">
           <div className="w-full md:w-1/2 py-8" data-aos="fade-up"
      data-aos-duration="3000">
-            <h1 className="text-7xl font-semibold leading-none tracking-tighter ">
+            <h1 className="text-5xl font-semibold leading-none ">
               Welcome to My Portfolio
             </h1>
             <TypeAnimation
@@ -65,10 +65,10 @@ const Banner = () => {
               </a>
             </div>
           </div>
-          <div className="w-full md:w-1/2 py-8" data-aos="fade-up" data-aos-duration="3000">
+          <div className="w-full md:w-1/2 py-8 bottom-0" data-aos="fade-up" data-aos-duration="3000">
             <img
               src={sabbir}
-              className="rounded-full"
+              className="rounded-full h-full "
             />
           </div>
         </div>

@@ -14,7 +14,7 @@ const Skills = () => {
         />
         <div className="md:ml-10">
           <h2 className="text-4xl font-semibold text-left" data-aos="fade-up" data-aos-duration="3000">My Skills</h2>
-          <p className="text-blue-gray-200 text-lg" data-aos="fade-up" data-aos-duration="3000">
+          <p className="text-blue-gray-200 text-lg mt-2 text-justify" data-aos="fade-up" data-aos-duration="3000">
             As a web developer, I specialize in a variety of technologies to
             create dynamic and engaging web applications. My skills include:
           </p>

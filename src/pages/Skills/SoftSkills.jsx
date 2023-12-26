@@ -8,7 +8,7 @@ const SoftSkills = () => {
       <div className="flex  flex-col lg:flex-row mt-10">
         <img src={img} alt="" className="w-1/2 mx-auto" data-aos="fade-up" data-aos-duration="3000"/>
         <div className="md:ml-10">
-          <p className="text-blue-gray-200 text-lg" data-aos="fade-up" data-aos-duration="3000">
+          <p className="text-blue-gray-200 text-lg mt-2 text-justify" data-aos="fade-up" data-aos-duration="3000">
           A passionate web developer with a unique blend of technical expertise and strong soft skills. With a keen eye for detail and a commitment to effective communication, I bring a holistic approach to web development that goes beyond just writing code.
           </p>
           <SoftSkillsCard/>
