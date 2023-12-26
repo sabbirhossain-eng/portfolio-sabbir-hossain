@@ -124,7 +124,7 @@ const navList = (
             </IconButton>
           </div>
         </div>
-        <MobileNav open={openNav}>{navList}</MobileNav>
+        <MobileNav open={openNav} onClick={() => setOpenNav(!openNav)}>{navList}</MobileNav>
       </Navbar>
     </div>
   );
