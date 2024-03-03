@@ -10,7 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThemeProvider>
-      <div className="mx-auto bg-black text-white">
+      <div className="mx-auto bg-primary-dark text-in-dark font-gloria">
         <RouterProvider router={router} />
       </div>
       <ToastContainer
