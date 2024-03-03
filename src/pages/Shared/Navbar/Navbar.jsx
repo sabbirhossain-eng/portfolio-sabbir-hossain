@@ -31,7 +31,7 @@ const navList = (
         as="li"
         variant="small"
         color="white"
-        className="p-1 font-medium font-sans text-lg"
+        className="p-1 text-lg"
       >
         <NavLink
           to="/"
@@ -44,7 +44,7 @@ const navList = (
         as="li"
         variant="small"
         color="white"
-        className="p-1 font-medium font-sans text-lg"
+        className="p-1 text-lg"
       >
         <HashLink smooth to="/#about">
           About
@@ -54,7 +54,7 @@ const navList = (
         as="li"
         variant="small"
         color="white"
-        className="p-1 font-medium font-sans text-lg"
+        className="p-1 text-lg"
       >
         <HashLink smooth to="/#projects">
           Projects
@@ -64,7 +64,7 @@ const navList = (
         as="li"
         variant="small"
         color="white"
-        className="p-1 font-medium font-sans text-lg"
+        className="p-1 font-medium text-lg"
       >
         <HashLink smooth to="/#contract">
         Contract Me
@@ -74,8 +74,8 @@ const navList = (
   );
   return (
     <div>
-      <Navbar className=" bg-black top-0 z-10 h-max max-w-full rounded-none px-4 lg:px-8 fixed">
-        <div className="flex items-center justify-between text-white ">
+      <Navbar className=" bg-primary-dark top-0 h-max max-w-full rounded-none px-4 lg:px-8 fixed z-40 border-primary">
+        <div className="flex items-center justify-between text-in-dark ">
           <Typography
             as="a"
             href="#"

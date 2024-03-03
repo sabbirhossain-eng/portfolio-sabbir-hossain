@@ -13,19 +13,19 @@ const Banner = () => {
   };
 
   return (
-      <div className="py-8 z-10 font-sans">
+      <div className="py-2 z-10">
         {/* <img className="w-full h-full ease-in-out duration-[3s] rounded-2xl object-top object-cover hover:object-bottom" src="/assets/FruitBurst-kUT_R7cg.png" alt="/assets/FruitBurst-kUT_R7cg.png"/> */}
-        <div className="flex flex-col md:flex-row items-center mx-auto ml-10">
+        <div className="flex flex-col md:flex-row justify-between items-center mx-auto">
           <div
-            className="w-full md:w-1/2 py-8"
+            className="w-full flex-1"
             data-aos="fade-up"
             data-aos-duration="3000"
           >
-            <h1 className="text-5xl font-semibold leading-none ">
+            <h1 className="text-5xl font-semibold leading-none">
               Welcome to My Portfolio
             </h1>
             <TypeAnimation
-              className="text-primary text-xl font-sans mt-10"
+              className="text-primary text-xl mt-10"
               sequence={[
                 "I am Sabbir Hossain",
                 1000,
@@ -34,11 +34,11 @@ const Banner = () => {
               ]}
               wrapper="span"
               speed={50}
-              style={{ fontSize: "2em", display: "inline-block" }}
+              style={{ fontSize: "2em", display: "inline-block", }}
               repeat={Infinity}
             />
             <div
-              className="flex flex-col space-y-10 mt-10"
+              className="flex flex-col space-y-10 mt-10 mx-auto"
               data-aos="fade-up"
               data-aos-duration="3000"
             >
@@ -95,14 +95,14 @@ const Banner = () => {
             </div>
           </div>
           <div
-            className="w-full md:w-1/2 py-8 bottom-0"
+            className=" flex-1 py-8 bottom-0"
             data-aos="fade-up"
             data-aos-duration="3000"
           >
-            <div className="absolute top-[4%] opacity-40">
+            <div className="absolute top-[4%] opacity-40 w-[60%]">
             <BannerBackground/>
             </div>
-            <img src={sabbir} className="rounded-full h-full relative z-10" />
+            <img src={sabbir} className="rounded-full h-full relative z-10 lg:-right-60" />
           </div>
         </div>
       </div>
