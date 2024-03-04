@@ -1,17 +1,14 @@
 import SkillsCard from "./SkillsCard";
-import img from "./../../assets/Skills/Skills.png";
 import SoftSkills from "./SoftSkills";
+import Animation from "../../Components/Animation/Animation";
+import animate from "../../Components/Lottie/Skills.json"
 const Skills = () => {
   return (
-    <div className="font-sans">
+    <div className="">
       <div className="flex  flex-col lg:flex-row mt-10">
-        <img
-          src={img}
-          alt=""
-          className="w-1/2 mx-auto"
-          data-aos="fade-up"
-          data-aos-duration="3000"
-        />
+      <div className="w-full mx-auto" data-aos="fade-up" data-aos-duration="3000">
+        <Animation animate={animate} />
+        </div>
         <div className="md:ml-10">
           <h2 className="text-4xl font-semibold text-left" data-aos="fade-up" data-aos-duration="3000">My Skills</h2>
           <p className="text-blue-gray-200 text-lg mt-2 text-justify" data-aos="fade-up" data-aos-duration="3000">

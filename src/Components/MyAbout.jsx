@@ -1,11 +1,11 @@
-import img from "./../assets/About/information.png";
+import img from "../assets/sabbir.png";
 import { FaLinkedin } from "react-icons/fa6";
 import { VscGithubInverted } from "react-icons/vsc";
 import { TfiWorld } from "react-icons/tfi";
 import { Link } from "react-router-dom";
 const MyAbout = () => {
   return (
-    <div className="font-sans">
+    <div className="">
       <div className="flex flex-col md:flex-row mt-10">
         <img
           src={img}
@@ -37,14 +37,14 @@ const MyAbout = () => {
             {/* card 1 */}
 
             <div
-              className="card w-full lg:w-full bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]"
+              className="card w-full lg:w-full bg-card-dark text-neutral-content hover:border hover:border-primary"
               data-aos="fade-up"
               data-aos-duration="3000"
             >
               <div className="card-body">
                 <h2 className="card-title text-blue-gray-200">Email</h2>
                 <a href="mailto:sabbirh8181@gmail.com">
-                  <p className="text-white lg:text-xl md:font-semibold">
+                  <p className="text-in-dark lg:text-xl md:font-semibold">
                     sabbirh8181@gmail.com
                   </p>
                 </a>
@@ -54,14 +54,14 @@ const MyAbout = () => {
             {/* card 2 */}
 
             <div
-              className="card w-full lg:w-full bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]"
+              className="card w-full lg:w-full bg-card-dark text-neutral-content hover:border hover:border-primary"
               data-aos="fade-up"
               data-aos-duration="3000"
             >
               <div className="card-body">
                 <h2 className="card-title text-blue-gray-200">Phone</h2>
                 <a href="tel:+8801707522427">
-                  <p className="text-white text-xl font-semibold">
+                  <p className="text-in-dark text-xl font-semibold">
                     +880 1707 522427
                   </p>
                 </a>
@@ -70,7 +70,7 @@ const MyAbout = () => {
 
             {/* card 3 */}
             <div
-              className="card w-full lg:w-full bg-neutral text-neutral-content hover:border hover:border-[#c9f31d]"
+              className="card w-full lg:w-full bg-card-dark text-neutral-content hover:border hover:border-primary"
               data-aos="fade-up"
               data-aos-duration="3000"
             >
@@ -81,7 +81,7 @@ const MyAbout = () => {
                     to="https://www.linkedin.com/in/sabbirhossain1"
                     target="_blank"
                   >
-                    <p className="text-white text-3xl font-semibold">
+                    <p className="text-in-dark text-3xl font-semibold">
                       <FaLinkedin />
                     </p>
                   </Link>
@@ -89,7 +89,7 @@ const MyAbout = () => {
                     to="https://github.com/sabbirhossain-eng"
                     target="_blank"
                   >
-                    <p className="text-white text-3xl font-semibold">
+                    <p className="text-in-dark text-3xl font-semibold">
                       <VscGithubInverted />
                     </p>
                   </Link>
@@ -97,7 +97,7 @@ const MyAbout = () => {
                     to="https://sabbirhossain-8630c.web.app/"
                     target="_blank"
                   >
-                    <p className="text-white text-3xl font-semibold">
+                    <p className="text-in-dark text-3xl font-semibold">
                       <TfiWorld />
                     </p>
                   </Link>

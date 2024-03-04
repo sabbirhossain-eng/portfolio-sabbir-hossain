@@ -6,7 +6,9 @@ import { VscGithubInverted } from "react-icons/vsc";
 import { TfiWorld } from "react-icons/tfi";
 import { saveAs } from "file-saver";
 import resume from "../../assets/Resume/sabbirhossain.pdf";
-import BannerBackground from "../../Components/Animation/Banner/BannerBackground";
+import animate from './BackgroundBanner.json';
+import Animation from "../../Components/Animation/Animation";
+
 const Banner = () => {
   const downloadResume = () => {
     saveAs(resume, "sabbirHossain.pdf");
@@ -100,7 +102,7 @@ const Banner = () => {
             data-aos-duration="3000"
           >
             <div className="absolute top-[4%] opacity-40 w-[60%]">
-            <BannerBackground/>
+            <Animation animate={animate}/>
             </div>
             <img src={sabbir} className="rounded-full h-full relative z-10 lg:-right-60" />
           </div>
