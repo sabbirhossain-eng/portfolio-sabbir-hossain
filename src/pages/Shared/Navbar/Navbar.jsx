@@ -74,7 +74,7 @@ const navList = (
   );
   return (
     <div>
-      <Navbar className=" bg-primary-dark top-0 h-max max-w-full rounded-none px-4 lg:px-8 fixed z-40 border-primary">
+      <Navbar className=" bg-primary-dark top-0 h-max max-w-full rounded-none px-4 lg:px-8 fixed z-40 border-primary mx-auto">
         <div className="flex items-center justify-between text-in-dark ">
           <Typography
             as="a"

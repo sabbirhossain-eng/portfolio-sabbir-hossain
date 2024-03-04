@@ -10,7 +10,7 @@ const ProjectCard = ({ image, title, subTitle, hashRoute }) => {
   return (
     <div className="w-full flex flex-wrap">
       <Card
-        className="w-full bg-card-dark border border-primary"
+        className="w-full bg-card-dark hover:border hover:border-primary"
         data-aos="fade-up"
         data-aos-duration="3000"
       >
@@ -32,9 +32,9 @@ const ProjectCard = ({ image, title, subTitle, hashRoute }) => {
             {subTitle}
           </Typography>
         </CardBody>
-        <CardFooter className="flex justify-center gap-7 pt-2">
+        <CardFooter className="flex justify-center  mt-auto">
           <HashLink to={`/projects/#${hashRoute}`}>
-            <button className="btn btn-sm bg-primary text-black ">
+            <button className="btn btn-sm bg-primary text-black hover:bg-transparent hover:border-primary hover:text-primary grow">
               View Details
             </button>
           </HashLink>

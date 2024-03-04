@@ -100,7 +100,7 @@ const Banner = () => {
             data-aos="fade-up"
             data-aos-duration="3000"
           >
-            <div className="absolute top-[4%] opacity-40 w-[60%]">
+            <div className="absolute top-[4%] opacity-40 w-[60%] right-0">
             <Animation animate={animate}/>
             </div>
             <img src={sabbir} className="rounded-full h-full relative z-10 lg:-right-60" />

@@ -2,7 +2,9 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
-
+import { IoIosSend } from "react-icons/io";
+import Animation from "../../Components/Animation/Animation";
+import animate from "../../Components/Lottie/CntactMe.json";
 const Contract = () => {
   const form = useRef();
   const navigate = useNavigate();
@@ -13,9 +15,9 @@ const Contract = () => {
     emailjs
       .sendForm(
         "service_q8mof3n",
-        "template_wb6dpg9",
+        "template_kc2tzqj",
         form.current,
-        "IDW39yIQ1UZTsNFAr"
+        "7pF2mfmqORFQyGUIQ"
       )
       .then(
         (result) => {
@@ -23,7 +25,7 @@ const Contract = () => {
           if (result.text === "OK") {
             form.current.reset();
             toast.success("Email send Successfully");
-            navigate('/')
+            navigate("/");
           }
         },
         (error) => {
@@ -32,74 +34,90 @@ const Contract = () => {
       );
   };
   return (
-    <div>
-      <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-[#c9f31d] font-sans" data-aos="fade-up" data-aos-duration="3000">
-          Contact Us
-        </h2>
-        <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl" data-aos="fade-up" data-aos-duration="3000">
-          Want to give me feedback that will change my future?
-          <br /> 
-          Want to work with me in keeping with new technology?
-          <br />
-          Then get in touch or send your feedback.
-        </p>
-        <form ref={form} onSubmit={sendEmail} className="space-y-4">
-          <div data-aos="fade-up" data-aos-duration="3000">
-            <label className="block mb-2 text-sm font-medium text-[#c9f31d] dark:text-[#c9f31d]">
-              Your Name
-            </label>
-            <input
-              type="text"
-              name="name"
-              className="shadow-sm bg-gray-50 border border-[#c9f31d] text-black text-sm rounded-lg block w-full p-2.5"
-              placeholder="Sabbir Hossain"
-              required
-            />
+    <div className="my-10">
+      <div className=" w-full mx-auto relative bg-card-dark rounded-3xl shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] overflow-hidden">
+        <div className="absolute -top-6 -left-6 w-20 h-20 rounded-full bg-primary"></div>
+        <div className="absolute -bottom-6 -left-0 w-24 h-20 rounded-tr-[40px] bg-primary"></div>
+        <div className="absolute -top-6 -right-6 w-20 h-20 rounded-full bg-primary"></div>
+        <div className="absolute -bottom-6 -right-0 w-24 h-20 rounded-tl-[40px] bg-primary"></div>
+        <div className="flex flex-col lg:flex-row items-center my-8 lg:my-0">
+          <div className="text-center p-6 xl:p-10 flex flex-col items-center justify-center flex-1">
+            <div>
+              <h2 className="text-3xl text-primary font-bold">Contact Me</h2>
+              <p
+                className="mb-8 lg:mb-16 font-light  text-gray-500 dark:text-gray-400 sm:text-xl text-justify"
+              >
+                Want to give me feedback that will change my future?
+                <br />
+                Want to work with me in keeping with new technology?
+                <br />
+                Then get in touch or send your feedback.
+              </p>
+            </div>
+
+            <div
+              className="w-[60%] mx-auto"
+              data-aos="fade-down"
+              data-aos-duration="3000"
+            >
+              <Animation animate={animate} />
+            </div>
           </div>
-          <div data-aos="fade-up" data-aos-duration="3000">
-            <label className="block mb-2 text-sm font-medium text-[#c9f31d] dark:text-[#c9f31d]">
-              Your email
-            </label>
-            <input
-              type="email"
-              name="email"
-              className="shadow-sm bg-gray-50 border border-[#c9f31d] text-black text-sm rounded-lg block w-full p-2.5"
-              placeholder="name@flowbite.com"
-              required
-            />
-          </div>
-          <div data-aos="fade-up" data-aos-duration="3000">
-            <label className="block mb-2 text-sm font-medium text-[#c9f31d]">
-              Subject
-            </label>
-            <input
-              type="text"
-              name="subject"
-              className="block p-3 w-full text-sm text-black bg-gray-50 rounded-lg border border-[#c9f31d] shadow-sm"
-              placeholder="Let us know how we can help you"
-              required
-            />
-          </div>
-          <div className="sm:col-span-2" data-aos="fade-up" data-aos-duration="3000">
-            <label className="block mb-2 text-sm font-medium text-[#c9f31d] dark:text-gray-400">
-              Your message
-            </label>
-            <textarea
-              name="message"
-              rows="6"
-              className="block p-2.5 w-full text-sm text-black bg-gray-50 rounded-lg shadow-sm border border-[#c9f31d]"
-              placeholder="Leave a comment..."
-            ></textarea>
-          </div>
-          <div data-aos="fade-up" data-aos-duration="3000">
-          <input
-            type="submit"
-            className="py-3 px-5 text-sm font-medium text-center text-black btn rounded-lg bg-[#c9f31d]"
-            value="Send message"
-          />
-          </div>
-        </form>
+          <form ref={form} onSubmit={sendEmail}
+          className="w-full flex-1 mb-8 lg:mb-0 text-black">
+            <div className="max-w-sm mx-auto space-y-4">
+              <div>
+              <label className="text-in-dark">Your Name <span className="text-primary">*</span></label>
+              <input
+                type="text"
+                name="user_name"
+                placeholder="Your Name"
+                className="w-full bg-gray-100 rounded-lg py-3 px-6 text-sm focus:outline-primary"
+                required
+              />
+              </div>
+              <div>
+              <label className="text-in-dark">Your Email <span className="text-primary">*</span></label>
+              <input
+                type="email"
+                name="user_email"
+                placeholder="Your Email"
+                className="w-full bg-gray-100 rounded-lg py-3 px-6 text-sm focus:outline-primary"
+                required
+              />
+              </div>
+              <div>
+              <label className="text-in-dark">Subject <span className="text-primary">*</span></label>
+              <input
+                type="text"
+                name="user_subject"
+                placeholder="Subject"
+                className="w-full bg-gray-100 rounded-lg py-3 px-6 text-sm focus:outline-primary"
+                required
+              />
+              </div>
+              <div>
+              <label className="text-in-dark">Your Message <span className="text-primary">*</span></label>
+              <textarea
+              name="user_message"
+                placeholder="Message"
+                rows="6"
+                className="w-full bg-gray-100 rounded-lg px-6 text-sm pt-3 focus:outline-primary"
+                required
+              ></textarea>
+              </div>
+              <button
+                type="submit"
+                className="text-black w-full relative bg-primary hover:bg-transparent hover:text-primary hover:border  hover:border-primary font-semibold rounded-lg text-sm px-6 py-3 flex items-center justify-center gap-2 "
+              >
+                <span className="text-xl">
+                  <IoIosSend />
+                </span>
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );
