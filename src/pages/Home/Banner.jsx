@@ -16,7 +16,6 @@ const Banner = () => {
 
   return (
       <div className="py-2 z-10">
-        {/* <img className="w-full h-full ease-in-out duration-[3s] rounded-2xl object-top object-cover hover:object-bottom" src="/assets/FruitBurst-kUT_R7cg.png" alt="/assets/FruitBurst-kUT_R7cg.png"/> */}
         <div className="flex flex-col md:flex-row justify-between items-center mx-auto">
           <div
             className="w-full flex-1"

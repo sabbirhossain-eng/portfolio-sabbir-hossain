@@ -1,4 +1,4 @@
-import MyProjects from "../../Components/MyProjects";
+import MyProjects from "../../Components/MyProjects/MyProjects";
 import About from "../About/About";
 import Contract from "../Contract/Contract";
 import Banner from "./Banner";
