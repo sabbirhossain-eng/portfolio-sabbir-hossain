@@ -8,11 +8,9 @@ import { Toaster } from "react-hot-toast";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Toaster toastOptions={{
-    className: 'bg-card-dark text-in-dark',
-  }}/>
+    <Toaster/>
     <ThemeProvider>
-      <div className="mx-auto bg-primary-dark text-in-dark font-gloria">
+      <div className="mx-auto bg-primary-dark text-in-dark font-josep">
         <RouterProvider router={router} />
       </div>
     </ThemeProvider>

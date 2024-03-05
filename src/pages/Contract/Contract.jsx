@@ -25,7 +25,12 @@ const Contract = () => {
           console.log(result.text);
           if (result.text === "OK") {
             form.current.reset();
-            toast.success("Email send Successfully");
+            toast.success("Email send Successfully", {
+              style: {
+                background: '#1b1c1d',
+                color: '#F4F4F4',
+              },
+            });
             navigate("/");
           }
         },
