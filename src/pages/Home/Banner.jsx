@@ -23,18 +23,18 @@ const Banner = () => {
             data-aos-duration="3000"
           >
             <h1 className="text-5xl font-semibold leading-none">
-              Welcome to My Portfolio
+            Sabbir Hossain is a web developer.
             </h1>
             <TypeAnimation
               className="text-primary text-xl mt-10"
               sequence={[
-                "I am Sabbir Hossain",
+                "",
                 1000,
-                "I am Sabbir Hossain Web Developer",
+                "I'm based in Bangladesh and work as a web developer_",
                 1000,
               ]}
               wrapper="span"
-              speed={50}
+              speed={250}
               style={{ fontSize: "2em", display: "inline-block", }}
               repeat={Infinity}
             />
