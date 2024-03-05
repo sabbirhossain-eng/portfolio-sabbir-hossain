@@ -20,13 +20,13 @@
 }
 
 .react-tabs__tab--selected {
-  background: #c9f31d;
+  background: #c084fc;
   color: black;
   border-radius: 5px 5px 0 0;
 }
 
 .react-tabs__tab--disabled {
-  color: white;
+  color: #F4F4F4;
   cursor: default;
 }
 

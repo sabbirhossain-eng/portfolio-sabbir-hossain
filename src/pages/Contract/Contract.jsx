@@ -1,10 +1,11 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 import { IoIosSend } from "react-icons/io";
 import Animation from "../../Components/Animation/Animation";
 import animate from "../../Components/Lottie/CntactMe.json";
+import toast from "react-hot-toast";
+
 const Contract = () => {
   const form = useRef();
   const navigate = useNavigate();
@@ -29,13 +30,15 @@ const Contract = () => {
           }
         },
         (error) => {
-          console.log(error.text);
+          toast.error(error.text);
         }
       );
   };
   return (
     <div className="my-10">
-      <div className=" w-full mx-auto relative bg-card-dark rounded-3xl shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] overflow-hidden">
+      <div className=" w-full mx-auto relative bg-card-dark rounded-3xl overflow-hidden" 
+      data-aos="fade-up" data-aos-duration="3000"
+      >
         <div className="absolute -top-6 -left-6 w-20 h-20 rounded-full bg-primary"></div>
         <div className="absolute -bottom-6 -left-0 w-24 h-20 rounded-tr-[40px] bg-primary"></div>
         <div className="absolute -top-6 -right-6 w-20 h-20 rounded-full bg-primary"></div>

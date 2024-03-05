@@ -18,7 +18,7 @@ const ProjectCard = ({ image, title, subTitle, hashRoute }) => {
           <img
             className="w-full h-full ease-in-out duration-[3s] rounded-2xl object-top object-cover hover:object-bottom"
             src={image}
-            alt="profile-picture"
+            alt={title}
           />
         </CardHeader>
         <CardBody className="text-center">

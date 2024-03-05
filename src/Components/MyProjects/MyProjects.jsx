@@ -1,7 +1,7 @@
 import happyHomesHub from "../../assets/Project/Happy Homes Hub.png";
 import libraryPules from "../../assets/Project/Library Pules.png";
 import electraTech from "../../assets/Project/Electra Tech.png";
-import teamProject from "../../assets/Project/property hunt.png";
+import propertyHunt from "../../assets/Project/property hunt.png";
 import ProjectCard from "../ProjectCard/ProjectCard";
 
 const MyProjects = () => {
@@ -30,10 +30,10 @@ const MyProjects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Property Hunter */}
           <ProjectCard
-            image={teamProject}
+            image={propertyHunt}
             title={"Property Hunter"}
             subTitle={"A Real State Website"}
-            hashRoute={"PropertyHunter"}
+            hashRoute={"propertyHunter"}
           />
         {/* Happy Homes Hub */}
           <ProjectCard
