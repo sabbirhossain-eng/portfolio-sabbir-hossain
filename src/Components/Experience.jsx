@@ -35,6 +35,21 @@ const Experience = () => {
                 <p className="font-semibold text-2xl mr-4">Tailwind CSS</p>
             </div>
             <hr className="bg-primary p-[0.5px] my-2" data-aos="fade-up" data-aos-duration="3000"/>
+            <div className="flex justify-between mx-auto py-10" data-aos="fade-up" data-aos-duration="3000">
+                <p className="font-semibold text-lg text-primary">in 2023</p>
+                <p className="font-semibold text-2xl mr-4">MongoDB</p>
+            </div>
+            <hr className="bg-primary p-[0.5px] my-2" data-aos="fade-up" data-aos-duration="3000"/>
+            <div className="flex justify-between mx-auto py-10" data-aos="fade-up" data-aos-duration="3000">
+                <p className="font-semibold text-lg text-primary">in 2024</p>
+                <p className="font-semibold text-2xl mr-4">Redux</p>
+            </div>
+            <hr className="bg-primary p-[0.5px] my-2" data-aos="fade-up" data-aos-duration="3000"/>
+            <div className="flex justify-between mx-auto py-10" data-aos="fade-up" data-aos-duration="3000">
+                <p className="font-semibold text-lg text-primary">in 2024</p>
+                <p className="font-semibold text-2xl mr-4">Mongoose</p>
+            </div>
+            <hr className="bg-primary p-[0.5px] my-2" data-aos="fade-up" data-aos-duration="3000"/>
           </div>
         </div>
       </div>

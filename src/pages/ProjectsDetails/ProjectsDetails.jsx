@@ -14,13 +14,13 @@ const ProjectsDetails = () => {
       title1={"Property Hunter"} 
       subTitle1={"A Real State Website"} 
       title2={"Project Feature ( I implement )"} 
-      p1={"Payment Gateway"} 
-      p2={"Favorite List"} 
-      p3={"Buyer inquiries"} 
-      p4={"Notification"} 
-      p5={"Email sender with nodemailer"} 
-      p6={"Manage property requests"}
-      liveLink={"https://property-hunter-react.vercel.app"} 
+      p1={"Properties, property details"} 
+      p2={"Admin, Moderator & user Dashboard"} 
+      p3={"Google map, QR code, Email sender with nodemailer"} 
+      p4={"Manage property requests, Favorite List"} 
+      p5={"Notification, Email sender with nodemailer"} 
+      p6={"Notification, Stripe Payment gateway"}
+      liveLink={"https://property-hunter-tm.netlify.app/"} 
       gitClient={"https://github.com/istiakahmedsarker/property-hunter-react"} gitServer={"https://github.com/istiakahmedsarker/Property-Hunter-Server"}/>
       </div>
       {/* Homes hub */}

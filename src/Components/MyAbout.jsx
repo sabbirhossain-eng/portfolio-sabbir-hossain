@@ -43,9 +43,9 @@ const MyAbout = () => {
             >
               <div className="card-body">
                 <h2 className="card-title text-blue-gray-200">Email</h2>
-                <a href="mailto:sabbirh8181@gmail.com">
+                <a href="mailto:sabbirhossain2k10@gmail.com">
                   <p className="text-in-dark lg:text-xl md:font-semibold">
-                    sabbirh8181@gmail.com
+                  sabbirhossain2k10@gmail.com
                   </p>
                 </a>
               </div>
