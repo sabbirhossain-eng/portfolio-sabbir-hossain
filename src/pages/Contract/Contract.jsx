@@ -62,7 +62,6 @@ const Contract = () => {
                 Then get in touch or send your feedback.
               </p>
             </div>
-
             <div
               className="w-[60%] mx-auto"
               data-aos="fade-down"
